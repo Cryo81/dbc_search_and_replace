@@ -1,6 +1,7 @@
 [package]
-name = "dbc_search_and_replace"
+name = "dbc_reader"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+wow_dbc = { version = "0.3.0", features = ["vanilla"] }
