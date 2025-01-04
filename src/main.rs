@@ -64,9 +64,9 @@ fn help(){
 fn check_args(args: &[String],languages: &[&str]) -> Result<Vec<String>, ()>{
     let mut sel_language = String::new();
     let mut commands : Vec<String> = vec![];
-    if true { //command passé automatiquement
-        let path : String = "out-".to_string(); // fonctionnalité temporaire
-        let verbose : String = "verbose".to_string(); // for test purposes
+    if true {
+        let path : String = "out-".to_string();  // could be implemented as argument later
+        let verbose : String = "verbose".to_string(); // could be implemented as argument later
         commands.push(path);
         commands.push(verbose);
     }
